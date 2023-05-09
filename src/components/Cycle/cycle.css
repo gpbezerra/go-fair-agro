@@ -1,0 +1,62 @@
+.cycleCotainer{
+    background: #000E8E;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cycleCotainer p{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cycleCotainer h1{
+    width: 80%;
+    background: #E3BC26;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.cycleOficinasContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.cycleOficinasContainer h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-top: 20px;  
+}
+
+.cycleOficinasDeck{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .cycleCotainer p{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+}

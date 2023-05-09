@@ -1,0 +1,91 @@
+.coordinationContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.coordinationImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.coordinationImages a{
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#embrapa{
+    width: 70%;
+}
+
+#unipampa{
+    width: 60%;
+}
+
+#ufrrj{
+    width: 60%;
+}
+
+#usp{
+    width: 50%;
+}
+
+#ufrj{
+    width: 50%;
+}
+
+.coordinationContainer h1{
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #2D6D2C;
+}
+
+.coordinationContainer p{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .coordinationContainer h1{
+        font-size: 40px;
+    }
+
+    .coordinationContainer p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #embrapa{
+        width: 120%;
+    }
+    
+    #unipampa{
+        width: 110%;
+    }
+    
+    #ufrrj{
+        width: 130%;
+    }
+    
+    #usp{
+        width: 100%;
+    }
+    
+    #ufrj{
+        width: 100%;
+    }
+}
