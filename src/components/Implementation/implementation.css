@@ -6,7 +6,7 @@
 }
 
 .videoContainer h3{
-    font-family: 'Inter';
+    font-family: 'Scada';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -18,7 +18,7 @@
 }
 
 .videoContainer h1{
-    font-family: 'Arimo';
+    font-family: 'Scada';
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
@@ -28,13 +28,10 @@
 }
 
 .videoContainer p{
-    font-family: 'Arimo';
     font-style: normal;
-    font-weight: 700;
     font-size: 20px;
     align-items: center;
     text-align: justify;
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -87,9 +84,16 @@
     flex-direction: column;
     align-items: center;
     border: 1.22078px solid #00191A;
-    height: 350px;
     width: 33.3%;
     padding: 15px;
+    justify-content: space-between;
+}
+
+
+
+.implementationCard li{
+    font-family: 'Archivo black';
+    color: white;
 }
 
 .implementationCard p{
@@ -97,7 +101,6 @@
     font-family: 'Abel';
     font-style: normal;
     font-weight: 400;
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -112,7 +115,7 @@
 
 }
 
-#implementarionOficina{
+#implementationOficina{
     background: rgba(0, 0, 0, 0.2);
     border-radius: 0px 10px 10px 0px;
 }
@@ -170,7 +173,7 @@
         border-radius: 10px;
     }
     
-    #implementarionOficina{
+    #implementationOficina{
         border-radius: 10px;
     }
 

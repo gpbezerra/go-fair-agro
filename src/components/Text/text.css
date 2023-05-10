@@ -5,17 +5,15 @@
 
 .textContainer h1{
     color: #2D6D2C;
-    font-family: 'Josefin Sans';
+    font-family: 'Archivo black';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
 }
 
 .textContainer p{
-    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
-    font-variant: small-caps;
     color: #000000;
     font-size: 20px;
 }

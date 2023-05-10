@@ -7,13 +7,14 @@
 }
 
 .cycleCotainer p{
-    font-family: 'Asap';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    padding: 2% 3%;
 }
 
 .cycleCotainer h1{
@@ -21,7 +22,7 @@
     background: #E3BC26;
     border-radius: 10px;
     text-align: center;
-    font-family: 'Arimo';
+    font-family: 'Scada';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -39,7 +40,7 @@
 }
 
 .cycleOficinasContainer h1{
-    font-family: 'Inter';
+    font-family: 'Scada';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -71,30 +72,41 @@
     background: #E3BC26;
     border: 1px solid #CBB7B7;
     border-radius: 10px;
-    width: 200px;
+    width: fit-content;
     padding: 5px;
     text-align: center;
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     color: #000E8E;
     margin: 20px 0px 0px 20px;
+    transition: 200ms;
 }
 
+.cycleCard a:hover{
+    background-color: #000E8E;
+    color: #FFFFFF;
+}
 
 .cycleCard img{
     width: 50%;
 }
 
 .cycleCard p{
-    font-family: 'Inter';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
     color: #000E8E;
+}
+
+@media screen and (min-width: 320px) and (max-width:360px) {
+    #cycleDrive{
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width:800px) {

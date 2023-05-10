@@ -12,7 +12,6 @@
 
 .postContainer p{
     font-size: 150%;
-    font-family: 'Archivo';
     margin-top: 40px; 
 }
 
@@ -33,11 +32,12 @@
 }
 
 .postCard p{
+    font-family: 'Lato';
     font-size: 20px;
 }
 
 .postCard h2{
-    font-family: 'Asap';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
