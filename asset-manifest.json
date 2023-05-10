@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/go-fair-agro/static/css/main.8476f37a.css",
-    "main.js": "/go-fair-agro/static/js/main.d4ca6e45.js",
+    "main.css": "/go-fair-agro/static/css/main.984377d5.css",
+    "main.js": "/go-fair-agro/static/js/main.0ed22d21.js",
     "static/media/banner.png": "/go-fair-agro/static/media/banner.499b58798428dc821772.png",
     "static/media/logoUnipampa.jpg": "/go-fair-agro/static/media/logoUnipampa.cf0a8b184effda343b11.jpg",
     "static/media/logoUfrrj.png": "/go-fair-agro/static/media/logoUfrrj.a3faf1a536b116f17ef2.png",
@@ -14,11 +14,11 @@
     "static/media/logo-go-fair-agro.png": "/go-fair-agro/static/media/logo-go-fair-agro.ec7d7916536ef31a1c7a.png",
     "static/media/logoFairAgro-noBG.png": "/go-fair-agro/static/media/logoFairAgro-noBG.3b095da9b1b81c0c7793.png",
     "index.html": "/go-fair-agro/index.html",
-    "main.8476f37a.css.map": "/go-fair-agro/static/css/main.8476f37a.css.map",
-    "main.d4ca6e45.js.map": "/go-fair-agro/static/js/main.d4ca6e45.js.map"
+    "main.984377d5.css.map": "/go-fair-agro/static/css/main.984377d5.css.map",
+    "main.0ed22d21.js.map": "/go-fair-agro/static/js/main.0ed22d21.js.map"
   },
   "entrypoints": [
-    "static/css/main.8476f37a.css",
-    "static/js/main.d4ca6e45.js"
+    "static/css/main.984377d5.css",
+    "static/js/main.0ed22d21.js"
   ]
 }
