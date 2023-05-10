@@ -1,4 +1,8 @@
 import logo from "../../assets/logo-go-fair-agro.png"
+import oficina1 from "../../assets/oficina1.png";
+import oficina2 from "../../assets/oficina2.png";
+import oficina3 from "../../assets/oficina3.png";
+import oficina4 from "../../assets/oficina4.png";
 import "./cycle.css";
 
 export const Cycle = () => {
@@ -11,26 +15,26 @@ export const Cycle = () => {
                 <div className="cycleOficinasDeck">
                     <div className="cycleCard">
                         <p>Infraestrutura de Repositórios com Fátima Nunes Marques, Professora titular da Universidade de São Paulo.</p>
-                        <img src={logo} alt="" />
+                        <img src={oficina1} alt="" />
                         <a href="https://www.youtube.com/watch?v=OyNUByzgP4A">Assistir oficina</a>
                         <a id="cycleDrive" href="https://drive.google.com/file/d/17ZJ2bnJst_LMiQOD4TvzuDuEnSRKTyKp/view?usp=share_link">Acessar a apresentação</a>
                     </div>
                     <div className="cycleCard">
                         <p>Padrões de Dados e Metadados. Tipologia de Dados com Dr. João Luiz Moreira, Professor Assistente da Services and Cyber-Security (SCS).</p>
-                        <img src={logo} alt="" />
+                        <img src={oficina2} alt="" />
                         <a href="https://www.youtube.com/watch?v=QmvO9zk-vPs">Assistir oficina</a>
                         <a id="cycleDrive" href="https://drive.google.com/file/d/1xNgCyOL1FiqyKQrxXADMEipAjuj6vtSA/view?usp=share_link">Acessar a apresentação</a>
 
                     </div>
                     <div className="cycleCard">
                         <p>Palestra Ontologia, ontologias e o “I” de FAIR com Giancarlo Guizzardi, Full Professor da Universidade de Twente.</p>
-                        <img src={logo} alt="" />
+                        <img src={oficina3} alt="" />
                         <a href="https://www.youtube.com/watch?v=B_NbXSJWxgc">Assistir oficina</a>
                         <a id="cycleDrive" href="https://drive.google.com/file/d/1BfPt-6VSzO_iP18-armDZCPduSc1nSRI/view?usp=share_link">Acessar a apresentação</a>
                     </div>
                     <div className="cycleCard">
                         <p>Política e Plano de Gestão de Dados, Viviane Veiga</p>
-                        <img src={logo} alt="" />
+                        <img src={oficina4} alt="" />
                         <a href="https://drive.google.com/file/d/1CIDrdIsyWbeqG3VxrlyBoZOOB1SZNJuz/view?usp=share_link">Assistir oficina</a>
                     </div>
                 </div>
