@@ -5,6 +5,7 @@
     background: #2D6D2C;
     padding-bottom: 3%;
     padding-top: 3%;
+    align-items: right;
 }
 
 .manifestContainer img{
@@ -13,7 +14,8 @@
     align-self: center;
 }
 
-.manifestContainer a{
+#buttonDefault{
+    width: 200px;
     padding: 10px 40px;
     text-align: center;
     background: #FFFFFF;
@@ -31,9 +33,10 @@
     font-size: 20px;
     color: #008237;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 200ms;
 }
 
-.manifestContainer a:hover{
+#buttonDefault:hover{
     background-color: #287D27;
     color: #DCBD3E;
 }
@@ -80,8 +83,15 @@
     font-weight: 700;
     font-size: 20px; 
     margin-top: 4%;
-    text-align: center;
+    margin-right: 70px;
+
+    text-align: right;
     color: #FFFFFF;    
+}
+
+.manifestContainer a{
+    align-self: last baseline!important;
+    margin-right: 70px!important;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -121,6 +131,11 @@
     }
     .manifestContainer{
         padding-top: 6%;
+    }
+
+    .manifestContainer a{
+        align-self: center!important;
+        margin-right: 0px!important;
     }
 
 }

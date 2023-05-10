@@ -54,6 +54,11 @@
     height: 170px;
 }
 
+.aboutUsMissao a{
+    float: right;
+    margin-right: 10%;
+}
+
 .aboutUsMissao h2{
     font-family: 'Scada';
     font-style: normal;
@@ -74,7 +79,40 @@
     padding-right: 10%;
 }
 
+#buttonGreen{
+    width: 200px;
+    padding: 10px 40px;
+    text-align: center;
+    background: #2D6D2C;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 200ms;
+}
+
+#buttonGreen:hover{
+    background-color: #287D27;
+    color: #DCBD3E;
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .aboutUsMissao a{
+        margin-right: 0%;
+    }
+
+
     .aboutUsRede{
         width: 100%;
     }

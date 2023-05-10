@@ -14,6 +14,7 @@
     text-align: center;
     letter-spacing: -0.05em;
     color: #FFFFFF;
+    margin: 30px 0px 30px 0px;
 }
 
 .videoContainer h1{
@@ -41,7 +42,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 20px;
     width: 80%;
     padding: 50px 5px;
     align-self: center;
@@ -67,31 +68,71 @@
     border-bottom: white 10px solid;
 }
 
+
+#videoYtb{
+    width: 60%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
 .implementationCardDeck{
     display: flex;
     width: 80%;
     align-self: center;
+    justify-content: space-evenly;
 }
 
 .implementationCard{
-    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 1.22078px solid #00191A;
-    border-radius: 14.8421px 0px 0px 14.8421px;
-    width: 33%;
-    height: 40px;
+    height: 350px;
+    width: 33.3%;
+    padding: 15px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+.implementationCard p{
+    text-align: center;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#implementationGP{
+    border-radius: 10px 0px 0px 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#implementationMaterial{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+#implementarionOficina{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 10px 10px 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
     
+
     .implementationCardDeck{
         flex-direction: column;
     }
 
     .implementationCard{
         width: 100%;
-        border-radius: 10px;
-        margin-bottom: 10px;
+        margin: 20px 0px 20px 0px;
     }
+
+    .implementationCard a{
+        width: 150px!important;
+    }
+
     
     .videoContainer h1{
         font-size: 40px;
@@ -119,4 +160,18 @@
         height: 200px;
         margin-bottom: 30px;
     }
+    
+
+    #implementationGP{
+        border-radius: 10px;
+    }
+    
+    #implementationMaterial{
+        border-radius: 10px;
+    }
+    
+    #implementarionOficina{
+        border-radius: 10px;
+    }
+
 }

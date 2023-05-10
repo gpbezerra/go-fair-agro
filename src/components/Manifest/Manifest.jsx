@@ -7,10 +7,10 @@ export const Manifest = () => {
         <div id="Manifesto" className="manifestContainer">
                 <h3>SOBRE O</h3>
                 <h2>Manifesto</h2>
-                <p id="manifestP">O Escritório de Apoio de Coordenação GOFAIR Brasil é um dos escritórios regionais da rede GO-FAIR e tem a responsabilidade de difundir, apoiar e coordenar as atividades relacionadas à adoção da estratégia de implementação dos princípios FAIR definida pela iniciativa GO-FAIR em todo o território brasileiro.</p>
-                <img src={logo} alt="logo go fair agro brasil" />
-                <p id="manifestDescription">Acesse o manifesto aberto da rede de implementação temática go-fair agro brasil</p>
-                <a href={pdf} download="manifesto">Saiba mais</a>
+                <p id="manifestP">O Escritório de Apoio de Coordenação Rede GO FAIR Brasil é um dos escritórios regionais da Rede GO FAIR Brasil e tem a responsabilidade de difundir, apoiar e coordenar as atividades preconizadas pela Rede para a adoção e implementação dos princípios FAIR em todo o território brasileiro.</p>
+                {/* <img src={logo} alt="logo go fair agro brasil" /> */}
+                <p id="manifestDescription">Acesse o manifesto aberto da rede de implementação temática Rede GO FAIR Agro Brasil</p>
+                <a id="buttonDefault" href={pdf} download="manifesto">Saiba mais</a>
         </div>
     )
 }

@@ -9,6 +9,7 @@ export const Footer = () => {
     return (
         <div className="footerContainer">
             <img id="footerLogo" src={logo} alt="logo go fair brasil agro" />
+            <p>E-mail de contato: gofairagro@gmail.com</p>
             <div className="footerSocialMedia">
                 <a href="https://r1.ufrrj.br/petsi/">Criado por PET-SI/UFRRJ</a>
                 <div className="footerIcons">

@@ -1,3 +1,4 @@
+import logo from "../../assets/logo-go-fair-agro.png"
 import "./cycle.css";
 
 export const Cycle = () => {
@@ -9,9 +10,24 @@ export const Cycle = () => {
                 <h1>Confira Mais</h1>
                 <div className="cycleOficinasDeck">
                     <div className="cycleCard">
-                        <p>Palestra Padrões de dados e metadados, tipologia de dados com João Moreira</p>
-                        <img src="" alt="" />
-                        <a href="">Saiba mais</a>
+                        <p>Infraestrutura de Repositórios com Fátima Nunes Marques, Professora titular da Universidade de São Paulo.</p>
+                        <img src={logo} alt="" />
+                        <a href="https://www.youtube.com/watch?v=OyNUByzgP4A">Saiba mais</a>
+                    </div>
+                    <div className="cycleCard">
+                        <p>Padrões de Dados e Metadados. Tipologia de Dados com Dr. João Luiz Moreira, Professor Assistente da Services and Cyber-Security (SCS).</p>
+                        <img src={logo} alt="" />
+                        <a href="https://www.youtube.com/watch?v=QmvO9zk-vPs">Saiba mais</a>
+                    </div>
+                    <div className="cycleCard">
+                        <p>Palestra Ontologia, ontologias e o “I” de FAIR com Giancarlo Guizzardi, Full Professor da Universidade de Twente.</p>
+                        <img src={logo} alt="" />
+                        <a href="https://drive.google.com/file/d/1BfPt-6VSzO_iP18-armDZCPduSc1nSRI/view?usp=share_link">Saiba mais</a>
+                    </div>
+                    <div className="cycleCard">
+                        <p>Política e Plano de Gestão de Dados, Viviane Veiga</p>
+                        <img src={logo} alt="" />
+                        <a href="https://drive.google.com/file/d/1CIDrdIsyWbeqG3VxrlyBoZOOB1SZNJuz/view?usp=share_link">Saiba mais</a>
                     </div>
                 </div>
             </div>
