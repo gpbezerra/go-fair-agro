@@ -10,10 +10,10 @@ export const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-              <Nav.Link style={{color: "#E3BC26"}} href="#Manifesto">Manifesto</Nav.Link>
-              <Nav.Link style={{color: "#E3BC26"}} href="#Implementação">Implementação</Nav.Link>
-              <Nav.Link style={{color: "#E3BC26"}} href="#Oficinas">Ciclo de Oficinas</Nav.Link>
-              <Nav.Link style={{color: "#E3BC26"}} href="#Publicações">Publicações</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Manifesto">Manifesto</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Implementação">Implementação</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Oficinas">Ciclo de Oficinas</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Publicações">Publicações</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
