@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/go-fair-agro/static/css/main.984377d5.css",
-    "main.js": "/go-fair-agro/static/js/main.0ed22d21.js",
+    "main.css": "/go-fair-agro/static/css/main.d6efb10e.css",
+    "main.js": "/go-fair-agro/static/js/main.e42b9995.js",
     "static/media/banner.png": "/go-fair-agro/static/media/banner.499b58798428dc821772.png",
+    "static/media/oficina1.png": "/go-fair-agro/static/media/oficina1.08407907b8b9dac2a594.png",
+    "static/media/oficina4.png": "/go-fair-agro/static/media/oficina4.ba6ff6bb3755ed61c95b.png",
+    "static/media/oficina2.png": "/go-fair-agro/static/media/oficina2.9bd62a81e1266a9f042b.png",
     "static/media/logoUnipampa.jpg": "/go-fair-agro/static/media/logoUnipampa.cf0a8b184effda343b11.jpg",
     "static/media/logoUfrrj.png": "/go-fair-agro/static/media/logoUfrrj.a3faf1a536b116f17ef2.png",
+    "static/media/oficina3.png": "/go-fair-agro/static/media/oficina3.ffe6328517594f451554.png",
     "static/media/logoUfrj.png": "/go-fair-agro/static/media/logoUfrj.5609b7e55ff7f0b58817.png",
     "static/media/post1.png": "/go-fair-agro/static/media/post1.ddd092de3759949a8ba2.png",
     "static/media/logoEmbrepa.png": "/go-fair-agro/static/media/logoEmbrepa.f3ae1e723cd5d5a6e7ca.png",
@@ -14,11 +18,11 @@
     "static/media/logo-go-fair-agro.png": "/go-fair-agro/static/media/logo-go-fair-agro.ec7d7916536ef31a1c7a.png",
     "static/media/logoFairAgro-noBG.png": "/go-fair-agro/static/media/logoFairAgro-noBG.3b095da9b1b81c0c7793.png",
     "index.html": "/go-fair-agro/index.html",
-    "main.984377d5.css.map": "/go-fair-agro/static/css/main.984377d5.css.map",
-    "main.0ed22d21.js.map": "/go-fair-agro/static/js/main.0ed22d21.js.map"
+    "main.d6efb10e.css.map": "/go-fair-agro/static/css/main.d6efb10e.css.map",
+    "main.e42b9995.js.map": "/go-fair-agro/static/js/main.e42b9995.js.map"
   },
   "entrypoints": [
-    "static/css/main.984377d5.css",
-    "static/js/main.0ed22d21.js"
+    "static/css/main.d6efb10e.css",
+    "static/js/main.e42b9995.js"
   ]
 }
